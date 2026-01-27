@@ -362,6 +362,35 @@ a {
     display: none;
 }
 
+/* Breadcrumb */
+.breadcrumb {
+    padding: 20px 0;
+    font-size: 13px;
+    color: #666;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.breadcrumb a {
+    color: #666;
+    transition: color 0.2s;
+}
+
+.breadcrumb a:hover {
+    color: #E30613;
+}
+
+.breadcrumb .separator {
+    color: #ccc;
+    font-size: 11px;
+}
+
+.breadcrumb .current {
+    font-weight: 500;
+    color: #333;
+}
+
 /* Main Content */
 .main-content {
     padding: 50px 0;
